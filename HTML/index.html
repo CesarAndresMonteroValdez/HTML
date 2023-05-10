@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comida linda</title>
+	<link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+	<link rel=stylesheet"  href="menu.html">
+	<link rel="stylesheet" href="Imagenes/Pollo-al-horno-con-patatas-y-cebolla.jpg">
+	<link rel="stylesheet" href="Imagenes/pollo-a-la-naranja.jpg">
+	<link rel="stylesheet" href="Imagenes/tacos-mexicanos.jpg">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<h1 class="logo"><a href="index.html">Comida linda</a></h1>
+			<nav class="nav">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a href="menu.html">Menú</a></li>
+					<li><a href="Contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="titulo">
+		<div class="container">
+			<h2 class="tituloh2">Bienvenidos al Restaurante Comida linda</h2>
+			<p class="parrafotext">Disfruta del restaurante la comida linda</p>
+			<a href="menu.html" class="bottonprimario">Ver menú</a>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. <br> Rem aliquid sed beatae quibusdam sequi nobis pariatur amet, neque natus sit, laudantium deserunt excepturi laboriosam assumenda facere inventore maiores ad veniam!</p>
+		</div>
+	</section>
+	<section class="Imagenes">
+		<div class="container">
+			<h2 class="secciontitulo">Nuestros platos destacados</h2>
+			<div class="fila">
+				<div class="fila1">
+					<img src="Imagenes/Pollo-al-horno-con-patatas-y-cebolla.jpg" alt="Plato 1">
+					<h3 class="caracteristicatitulo">Pollo Asado
+					<p class="caracteristicatext">Cuando pensamos qué podemos hacer para comer <br> hoy o para cenar, en muchas ocasiones se nos presenta un dilema. Hay días que no te apetece cocinar y buscas comidas fáciles de hacer. Otros, dispones de poco tiempo para comer y necesitas comidas rápidas de hacer y que te lleve poco tiempo en la cocina. Además, hay meses que nos surgen imprevistos y necesitamos elaborar comidas económicas. Eso si, siempre, buscas ideas para cocinar comidas ricas o deliciosas que gusten a toda la familia.</p>
+				    <a href="PolloAsado.html">Leer mas</a>
+				</div>
+				<div class="fila2">
+					<img src="Imagenes/pollo-a-la-naranja.jpg" alt="Plato 2">
+					<h3 class="caracteristicatitulo">Pollo a la naranja</h3>
+					<p class="caracteristicatext">El pollo a la naranja es una comida típica de Asia.  <br> No tiene nada que ver con el pato al horno a la naranja, plato típico francés. En este caso, se trata de unas pechugas de pollo cocinadas junto a una salsa hecha a base de zumo de naranja. Se puede acompañar de un arroz blanco, que le va a venir «al pelo» a este plato.</p>
+					<a href="PolloAlaNaranja.html">Leer mas</a>
+				</div>
+				<div class="fila3">
+					<img src="Imagenes/tacos-mexicanos.jpg" alt="Plato 3">
+					<h3 class="caracteristicatitulo">Tacos mexicanos</h3>
+					<p class="caracteristicatextt">Los tacos mexicanos son <br> una popular receta de este país americano. Consiste en carne, generalmente de ternera (o res como lo llaman allí) o de pollo, cocinada junto a tomate y después introducida dentro de una tortilla de maíz o trigo. Finalmente se adereza con pico de gallo, una salsa típica del país. Un plato con mucha personalidad y que sin duda sabe a méxico. Aquí, lo haremos con carne picada aunque, en realidad se hace con trozos de carne cortadas en tiras, cocinada durante dos horas o más. Así que se puede decir que aunque se parezca, no es 100% mexicana. Pero para acelerar el proceso que, todos tenemos unas vidas muy ajetreadas ¡haremos una versión mucho más rápida e igualmente sabrosa!</p>
+					<a href="tacosmexicanos.html">Leer mas</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<h2>Promociones</h2>
+			<p> Si llevas 2 platos de comida te regalan una soda gratis</p>
+		</div>
+		<div id="slider">
+
+			<ul class="slider">
+				<li id="slide1">
+					<h1>Hola</h1>
+					<img src="Imagenes/descarga (1).jpg" />
+				</li>
+				<li id="slide2">
+					<img src="Imagenes/images.jpg" />
+				</li>
+				<li id="slide3">
+					<h1>Menu</h1>
+					<p>Este Menu es para ver la comidas que estan para poder desgustar</p>
+					<a href="menu.html" target="_blank">Menu</a>
+				</li>
+			</ul>
+			<ul class="menu">
+				<li>
+					<a href="#slide1">1</a>
+				</li>
+				<li>
+					<a href="#slide2">2</a>
+				</li>
+				<li>
+					<a href="#slide3">3</a>
+				</li>
+ 		</ul>	
+		</div>
+		<div style="display: none;">
+			<a href="menu.html" target="_blank">Menu</a>
+		</div>		
+		<div class="container">
+			<h2 class="secciontitulo">Lo que dicen nuestros clientes</h2>
+				<p>El Restaurante Comida linda es mi lugar favorito para cenar en familia</p>
+				<p>Juan Pérez</p> 
+            </div>
+			<section class="Contacto">
+				<div class="container">
+					<h2 class="secciontitulo">Contacto</h2>
+					<form action="#" method="POST">
+						<label for="nombre">Nombre:</label>
+						<input type="text" id="nombre" name="nombre" required>
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+						<label for="mensaje">Mensaje:</label>
+						<textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+						<input type="submit" value="Enviar" class="button-primary">
+					</form>
+				</div>
+			</section>
+        </section>   
+        <footer class="footer">
+            <div class="container">
+                <p>Derechos reservados Restaurante Comida linda &copy; 2023</p>
+            </div>
+        </footer>  	  
+</body>
+</html>
+
+
+
